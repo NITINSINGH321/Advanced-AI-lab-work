@@ -1,0 +1,7 @@
+Loaded 10 tasks.
+Scenario: Case A (1 task/day/student)
+Solving for Best Subscription (Min Cost) within 10 days...
+Costs: c1=10, c2=15
+Found better: GPT=6, GEM=3 => Cost=105
+Best Subscription: GPT=6, Gemini=3
+Daily Cost: 105

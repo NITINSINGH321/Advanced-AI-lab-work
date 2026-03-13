@@ -1,0 +1,6 @@
+Usage: C:\Users\nitin\Desktop\Advanced AI Lab\Assignment_2\assignment02.exe <input_file> <N> <Val> <Mode>
+Modes:
+ 1: Min Days (Std) [Val=K]
+ 2: Min K (Std) [Val=Deadline]
+ 3: Min Days (Delayed) [Val=K]
+ 4: Min K (Delayed) [Val=Deadline]

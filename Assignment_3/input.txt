@@ -1,0 +1,22 @@
+% Sample Input File for Assignment 3
+% N (Students) and K (Prompts limit) are here for Assg 1 compatibility.
+% They will be overridden by the command line arguments in Assg 3.
+N 3
+K 10
+
+% Format: A <id> <prompt-count> <dependencies> 0
+% Rule: Odd IDs -> Gemini | Even IDs -> ChatGPT
+
+% Base tasks (No dependencies)
+A 1 2 0
+A 3 3 0
+A 9 2 0
+
+% Dependent tasks
+A 2 4 1 0         % Task 2 depends on Task 1
+A 4 5 2 3 0       % Task 4 depends on Task 2 and Task 3
+A 5 2 4 0         % Task 5 depends on Task 4
+A 6 4 4 0         % Task 6 depends on Task 4
+A 7 1 5 6 0       % Task 7 depends on Task 5 and Task 6
+A 8 3 7 0         % Task 8 depends on Task 7
+A 10 6 8 9 0      % Task 10 depends on Task 8 and Task 9
